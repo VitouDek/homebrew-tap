@@ -1,10 +1,10 @@
 cask "topnotch" do
   version "0.1.0"
-  sha256 "d93d57ebe9ff96f35080ddbdf880b0c47e1618217f44c22d0427c21c811300c3"
+  sha256 "7e68640a08ba3cff58f8fb6a77ee8610587bba07f0a269c78ce8d07710504224"
 
   # Private release asset: downloaded through the GitHub API with the installer's own token
   # (HOMEBREW_GITHUB_API_TOKEN, read access to VitouDek/TopNotch). Replace ASSET_ID after each release.
-  url "https://api.github.com/repos/VitouDek/TopNotch/releases/assets/ASSET_ID",
+  url "https://api.github.com/repos/VitouDek/TopNotch/releases/assets/671786890",
       header: [
         "Authorization: Bearer #{ENV.fetch("HOMEBREW_GITHUB_API_TOKEN", "")}",
         "Accept: application/octet-stream",
