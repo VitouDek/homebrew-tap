@@ -1,9 +1,9 @@
-# VitouDek's Homebrew tap (private)
+# VitouDek's Homebrew tap
 
 ```sh
-export HOMEBREW_GITHUB_API_TOKEN=<your GitHub token with read access to VitouDek/TopNotch>
-brew tap vitoudek/tap https://github.com/VitouDek/homebrew-tap
+brew tap vitoudek/tap
 brew install --cask vitoudek/tap/topnotch
 ```
 
-Update with `brew upgrade --cask vitoudek/tap/topnotch`.
+Update with `brew upgrade --cask vitoudek/tap/topnotch`. More about TopNotch:
+https://github.com/VitouDek/TopNotch-release

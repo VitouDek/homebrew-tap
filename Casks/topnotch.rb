@@ -2,16 +2,10 @@ cask "topnotch" do
   version "0.1.0"
   sha256 "7e68640a08ba3cff58f8fb6a77ee8610587bba07f0a269c78ce8d07710504224"
 
-  # Private release asset: downloaded through the GitHub API with the installer's own token
-  # (HOMEBREW_GITHUB_API_TOKEN, read access to VitouDek/TopNotch). Replace ASSET_ID after each release.
-  url "https://api.github.com/repos/VitouDek/TopNotch/releases/assets/671786890",
-      header: [
-        "Authorization: Bearer #{ENV.fetch("HOMEBREW_GITHUB_API_TOKEN", "")}",
-        "Accept: application/octet-stream",
-      ]
+  url "https://github.com/VitouDek/TopNotch-release/releases/download/v#{version}/TopNotch-#{version}.zip"
   name "TopNotch"
   desc "Live island for the MacBook notch"
-  homepage "https://github.com/VitouDek/TopNotch"
+  homepage "https://github.com/VitouDek/TopNotch-release"
 
   depends_on macos: ">= :sequoia"
 
