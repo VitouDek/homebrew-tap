@@ -1,6 +1,6 @@
 cask "topnotch" do
-  version "0.1.2"
-  sha256 "8645c770a6f9ec03ee5a464393f252b3b2051bdcb3c102a784350f96c7b6bd33"
+  version "0.1.3"
+  sha256 "e9db4d8b056785b7406a2553c75135455e20fa069c535b2ad064517b8c9b4260"
 
   url "https://github.com/VitouDek/TopNotch-release/releases/download/v#{version}/TopNotch-#{version}.zip"
   name "TopNotch"
